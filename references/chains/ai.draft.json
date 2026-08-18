@@ -1,0 +1,919 @@
+{
+  "chain": "ai",
+  "chain_name": "人工智能产业链",
+  "drafted": "2026-07-17",
+  "segments": [
+    {
+      "id": "upstream-chip",
+      "name": "上游·AI芯片与SoC",
+      "companies": [
+        {
+          "code": "688041.SH",
+          "name": "海光信息",
+          "leader": true,
+          "role": "国产x86 CPU+DCU(GPGPU)，信创与算力芯片底座"
+        },
+        {
+          "code": "688256.SH",
+          "name": "寒武纪",
+          "leader": false,
+          "role": "云端AI训练/推理芯片及智能计算集群"
+        },
+        {
+          "code": "688047.SH",
+          "name": "龙芯中科",
+          "leader": false,
+          "role": "自主指令集CPU，自主可控线"
+        },
+        {
+          "code": "300474.SZ",
+          "name": "景嘉微",
+          "leader": false,
+          "role": "国产GPU，图形显控起家，拓边端AI SoC"
+        },
+        {
+          "code": "688385.SH",
+          "name": "复旦微电",
+          "leader": false,
+          "role": "FPGA/安全与识别芯片"
+        },
+        {
+          "code": "688107.SH",
+          "name": "安路科技",
+          "leader": false,
+          "role": "国产FPGA"
+        },
+        {
+          "code": "603893.SH",
+          "name": "瑞芯微",
+          "leader": false,
+          "role": "边缘AIoT SoC（RK系列）"
+        },
+        {
+          "code": "688099.SH",
+          "name": "晶晨股份",
+          "leader": false,
+          "role": "多媒体智能终端SoC"
+        },
+        {
+          "code": "688608.SH",
+          "name": "恒玄科技",
+          "leader": false,
+          "role": "智能可穿戴/音频SoC"
+        },
+        {
+          "code": "688018.SH",
+          "name": "乐鑫科技",
+          "leader": false,
+          "role": "Wi-Fi MCU，AIoT连接芯片"
+        },
+        {
+          "code": "300672.SZ",
+          "name": "国科微",
+          "leader": false,
+          "role": "视频编解码/存储主控芯片"
+        }
+      ]
+    },
+    {
+      "id": "upstream-memory",
+      "name": "上游·存储与接口芯片",
+      "companies": [
+        {
+          "code": "688008.SH",
+          "name": "澜起科技",
+          "leader": true,
+          "role": "内存接口芯片全球龙头，受益DDR5/HBM/Retimer"
+        },
+        {
+          "code": "603986.SH",
+          "name": "兆易创新",
+          "leader": false,
+          "role": "NOR Flash龙头+MCU"
+        },
+        {
+          "code": "301308.SZ",
+          "name": "江波龙",
+          "leader": false,
+          "role": "存储模组（嵌入式/SSD/内存条）"
+        },
+        {
+          "code": "688525.SH",
+          "name": "佰维存储",
+          "leader": false,
+          "role": "存储模组+先进封测"
+        },
+        {
+          "code": "001309.SZ",
+          "name": "德明利",
+          "leader": false,
+          "role": "存储模组/主控"
+        },
+        {
+          "code": "688766.SH",
+          "name": "普冉股份",
+          "leader": false,
+          "role": "NOR Flash/EEPROM"
+        },
+        {
+          "code": "688123.SH",
+          "name": "聚辰股份",
+          "leader": false,
+          "role": "EEPROM/SPD，受益DDR5渗透"
+        },
+        {
+          "code": "688110.SH",
+          "name": "东芯股份",
+          "leader": false,
+          "role": "中小容量存储芯片设计"
+        }
+      ]
+    },
+    {
+      "id": "upstream-packaging",
+      "name": "上游·先进封装",
+      "companies": [
+        {
+          "code": "600584.SH",
+          "name": "长电科技",
+          "leader": true,
+          "role": "封测龙头，Chiplet/SiP先进封装平台"
+        },
+        {
+          "code": "002156.SZ",
+          "name": "通富微电",
+          "leader": false,
+          "role": "封测大厂，深度绑定AMD"
+        },
+        {
+          "code": "002185.SZ",
+          "name": "华天科技",
+          "leader": false,
+          "role": "封测三巨头之一"
+        },
+        {
+          "code": "688362.SH",
+          "name": "甬矽电子",
+          "leader": false,
+          "role": "先进封装新锐"
+        },
+        {
+          "code": "603005.SH",
+          "name": "晶方科技",
+          "leader": false,
+          "role": "CIS晶圆级封装"
+        },
+        {
+          "code": "000021.SZ",
+          "name": "深科技",
+          "leader": false,
+          "role": "存储封测与高端制造"
+        }
+      ]
+    },
+    {
+      "id": "upstream-equipment",
+      "name": "上游·半导体设备",
+      "companies": [
+        {
+          "code": "002371.SZ",
+          "name": "北方华创",
+          "leader": true,
+          "role": "平台型设备龙头（刻蚀/薄膜/清洗/炉管）"
+        },
+        {
+          "code": "688012.SH",
+          "name": "中微公司",
+          "leader": false,
+          "role": "刻蚀设备龙头"
+        },
+        {
+          "code": "688072.SH",
+          "name": "拓荆科技",
+          "leader": false,
+          "role": "PECVD薄膜沉积设备"
+        },
+        {
+          "code": "688120.SH",
+          "name": "华海清科",
+          "leader": false,
+          "role": "CMP设备"
+        },
+        {
+          "code": "688082.SH",
+          "name": "盛美上海",
+          "leader": false,
+          "role": "清洗/电镀设备"
+        },
+        {
+          "code": "688037.SH",
+          "name": "芯源微",
+          "leader": false,
+          "role": "涂胶显影/清洗设备"
+        },
+        {
+          "code": "688361.SH",
+          "name": "中科飞测",
+          "leader": false,
+          "role": "量检测设备"
+        },
+        {
+          "code": "300567.SZ",
+          "name": "精测电子",
+          "leader": false,
+          "role": "半导体/显示检测"
+        }
+      ]
+    },
+    {
+      "id": "upstream-materials",
+      "name": "上游·半导体材料",
+      "companies": [
+        {
+          "code": "688126.SH",
+          "name": "沪硅产业",
+          "leader": true,
+          "role": "大硅片龙头"
+        },
+        {
+          "code": "605358.SH",
+          "name": "立昂微",
+          "leader": false,
+          "role": "硅片+功率器件"
+        },
+        {
+          "code": "300666.SZ",
+          "name": "江丰电子",
+          "leader": false,
+          "role": "高纯溅射靶材"
+        },
+        {
+          "code": "688019.SH",
+          "name": "安集科技",
+          "leader": false,
+          "role": "CMP抛光液"
+        },
+        {
+          "code": "002409.SZ",
+          "name": "雅克科技",
+          "leader": false,
+          "role": "前驱体/电子特气/硅微粉"
+        },
+        {
+          "code": "688268.SH",
+          "name": "华特气体",
+          "leader": false,
+          "role": "电子特种气体"
+        },
+        {
+          "code": "300346.SZ",
+          "name": "南大光电",
+          "leader": false,
+          "role": "光刻胶/前驱体/特气"
+        },
+        {
+          "code": "603650.SH",
+          "name": "彤程新材",
+          "leader": false,
+          "role": "光刻胶"
+        },
+        {
+          "code": "300054.SZ",
+          "name": "鼎龙股份",
+          "leader": false,
+          "role": "CMP抛光垫"
+        }
+      ]
+    },
+    {
+      "id": "upstream-eda",
+      "name": "上游·EDA与IP",
+      "companies": [
+        {
+          "code": "301269.SZ",
+          "name": "华大九天",
+          "leader": true,
+          "role": "国产全流程EDA龙头"
+        },
+        {
+          "code": "688206.SH",
+          "name": "概伦电子",
+          "leader": false,
+          "role": "器件建模/仿真EDA"
+        },
+        {
+          "code": "301095.SZ",
+          "name": "广立微",
+          "leader": false,
+          "role": "良率提升EDA+WAT测试"
+        },
+        {
+          "code": "688521.SH",
+          "name": "芯原股份",
+          "leader": false,
+          "role": "半导体IP授权与芯片定制"
+        }
+      ]
+    },
+    {
+      "id": "upstream-optical",
+      "name": "上游·光模块/器件/光芯片",
+      "companies": [
+        {
+          "code": "300308.SZ",
+          "name": "中际旭创",
+          "leader": true,
+          "role": "全球光模块龙头，800G/1.6T主力"
+        },
+        {
+          "code": "300502.SZ",
+          "name": "新易盛",
+          "leader": false,
+          "role": "高速光模块，海外算力客户放量"
+        },
+        {
+          "code": "300394.SZ",
+          "name": "天孚通信",
+          "leader": false,
+          "role": "光器件平台（无源+封装配套）"
+        },
+        {
+          "code": "002281.SZ",
+          "name": "光迅科技",
+          "leader": false,
+          "role": "光器件/模块全产业链"
+        },
+        {
+          "code": "000988.SZ",
+          "name": "华工科技",
+          "leader": false,
+          "role": "光模块+激光装备"
+        },
+        {
+          "code": "688498.SH",
+          "name": "源杰科技",
+          "leader": false,
+          "role": "DFB/EML光芯片"
+        },
+        {
+          "code": "688048.SH",
+          "name": "长光华芯",
+          "leader": false,
+          "role": "高功率激光芯片/VCSEL"
+        },
+        {
+          "code": "688313.SH",
+          "name": "仕佳光子",
+          "leader": false,
+          "role": "PLC分路器/AWG光芯片"
+        },
+        {
+          "code": "300548.SZ",
+          "name": "长芯博创",
+          "leader": false,
+          "role": "光模块/器件"
+        },
+        {
+          "code": "300570.SZ",
+          "name": "太辰光",
+          "leader": false,
+          "role": "光连接产品（MPO/MT插芯）"
+        },
+        {
+          "code": "300620.SZ",
+          "name": "光库科技",
+          "leader": false,
+          "role": "调制器/光纤器件"
+        },
+        {
+          "code": "688195.SH",
+          "name": "腾景科技",
+          "leader": false,
+          "role": "精密光学元件"
+        }
+      ]
+    },
+    {
+      "id": "upstream-pcb",
+      "name": "上游·PCB与覆铜板",
+      "companies": [
+        {
+          "code": "002463.SZ",
+          "name": "沪电股份",
+          "leader": true,
+          "role": "AI服务器/交换机高多层板主力+汽车板"
+        },
+        {
+          "code": "600183.SH",
+          "name": "生益科技",
+          "leader": false,
+          "role": "覆铜板龙头，高速CCL受益AI服务器"
+        },
+        {
+          "code": "002916.SZ",
+          "name": "深南电路",
+          "leader": false,
+          "role": "PCB+封装基板双业务"
+        },
+        {
+          "code": "300476.SZ",
+          "name": "胜宏科技",
+          "leader": false,
+          "role": "AI服务器HDI/高多层板放量"
+        },
+        {
+          "code": "603228.SH",
+          "name": "景旺电子",
+          "leader": false,
+          "role": "刚性板/柔性板综合厂"
+        },
+        {
+          "code": "002815.SZ",
+          "name": "崇达技术",
+          "leader": false,
+          "role": "小批量高多层板"
+        },
+        {
+          "code": "002436.SZ",
+          "name": "兴森科技",
+          "leader": false,
+          "role": "IC载板/快件样板"
+        },
+        {
+          "code": "002913.SZ",
+          "name": "奥士康",
+          "leader": false,
+          "role": "高多层板"
+        },
+        {
+          "code": "002938.SZ",
+          "name": "鹏鼎控股",
+          "leader": false,
+          "role": "FPC全球龙头"
+        },
+        {
+          "code": "002384.SZ",
+          "name": "东山精密",
+          "leader": false,
+          "role": "FPC/硬板，新能源+AI终端"
+        },
+        {
+          "code": "688519.SH",
+          "name": "南亚新材",
+          "leader": false,
+          "role": "高速覆铜板"
+        }
+      ]
+    },
+    {
+      "id": "upstream-server",
+      "name": "上游·AI服务器与整机",
+      "companies": [
+        {
+          "code": "601138.SH",
+          "name": "工业富联",
+          "leader": true,
+          "role": "AI服务器整机代工全球龙头"
+        },
+        {
+          "code": "000977.SZ",
+          "name": "浪潮信息",
+          "leader": false,
+          "role": "国内AI服务器龙头"
+        },
+        {
+          "code": "603019.SH",
+          "name": "中科曙光",
+          "leader": false,
+          "role": "高性能计算/服务器，海光大股东"
+        },
+        {
+          "code": "000938.SZ",
+          "name": "紫光股份",
+          "leader": false,
+          "role": "新华三：服务器/网络设备/云"
+        },
+        {
+          "code": "002261.SZ",
+          "name": "拓维信息",
+          "leader": false,
+          "role": "昇腾生态整机+行业AI"
+        },
+        {
+          "code": "000628.SZ",
+          "name": "高新发展",
+          "leader": false,
+          "role": "华鲲振宇：昇腾服务器"
+        },
+        {
+          "code": "000034.SZ",
+          "name": "神州数码",
+          "leader": false,
+          "role": "神州鲲泰信创整机+IT分销"
+        },
+        {
+          "code": "301236.SZ",
+          "name": "软通动力",
+          "leader": false,
+          "role": "昇腾算力服务+软件外包"
+        }
+      ]
+    },
+    {
+      "id": "upstream-cooling-power",
+      "name": "上游·温控液冷与供配电",
+      "companies": [
+        {
+          "code": "002837.SZ",
+          "name": "英维克",
+          "leader": true,
+          "role": "精密温控龙头，液冷全链条布局"
+        },
+        {
+          "code": "301018.SZ",
+          "name": "申菱环境",
+          "leader": false,
+          "role": "数据服务温控/液冷（华为链）"
+        },
+        {
+          "code": "300499.SZ",
+          "name": "高澜股份",
+          "leader": false,
+          "role": "液冷（特高压/数据中心）"
+        },
+        {
+          "code": "300990.SZ",
+          "name": "同飞股份",
+          "leader": false,
+          "role": "工业温控/液冷机组"
+        },
+        {
+          "code": "603912.SH",
+          "name": "佳力图",
+          "leader": false,
+          "role": "机房精密空调"
+        },
+        {
+          "code": "002335.SZ",
+          "name": "科华数据",
+          "leader": false,
+          "role": "UPS/高端电源+IDC双主业"
+        },
+        {
+          "code": "002518.SZ",
+          "name": "科士达",
+          "leader": false,
+          "role": "UPS/数据中心基础设施"
+        },
+        {
+          "code": "002364.SZ",
+          "name": "中恒电气",
+          "leader": false,
+          "role": "HVDC数据中心供电系统"
+        },
+        {
+          "code": "002851.SZ",
+          "name": "麦格米特",
+          "leader": false,
+          "role": "电源/智能家电电控，服务器电源拓展"
+        },
+        {
+          "code": "300870.SZ",
+          "name": "欧陆通",
+          "leader": false,
+          "role": "服务器电源"
+        }
+      ]
+    },
+    {
+      "id": "midstream-idc",
+      "name": "中游·IDC与算力服务",
+      "companies": [
+        {
+          "code": "300442.SZ",
+          "name": "润泽科技",
+          "leader": true,
+          "role": "批发型IDC/AIDC龙头，智算中心放量"
+        },
+        {
+          "code": "603881.SH",
+          "name": "数据港",
+          "leader": false,
+          "role": "批发型IDC（阿里系）"
+        },
+        {
+          "code": "300383.SZ",
+          "name": "光环新网",
+          "leader": false,
+          "role": "IDC+云服务（AWS中国区域运营）"
+        },
+        {
+          "code": "300738.SZ",
+          "name": "奥飞数据",
+          "leader": false,
+          "role": "IDC+算力服务"
+        },
+        {
+          "code": "600845.SH",
+          "name": "宝信软件",
+          "leader": false,
+          "role": "钢厂土地/能源资源型IDC+工业软件"
+        },
+        {
+          "code": "300846.SZ",
+          "name": "首都在线",
+          "leader": false,
+          "role": "云计算/算力租赁"
+        },
+        {
+          "code": "688158.SH",
+          "name": "优刻得",
+          "leader": false,
+          "role": "中立第三方云计算"
+        },
+        {
+          "code": "300895.SZ",
+          "name": "铜牛信息",
+          "leader": false,
+          "role": "北京国资IDC/云服务"
+        },
+        {
+          "code": "600602.SH",
+          "name": "云赛智联",
+          "leader": false,
+          "role": "上海国资云/算力"
+        },
+        {
+          "code": "839493.BJ",
+          "name": "并行科技",
+          "leader": false,
+          "role": "超算云/算力租赁（北交所）"
+        }
+      ]
+    },
+    {
+      "id": "midstream-model",
+      "name": "中游·大模型与算法",
+      "companies": [
+        {
+          "code": "002230.SZ",
+          "name": "科大讯飞",
+          "leader": true,
+          "role": "星火大模型+教育/医疗场景落地"
+        },
+        {
+          "code": "300418.SZ",
+          "name": "昆仑万维",
+          "leader": false,
+          "role": "天工大模型+海外应用矩阵"
+        },
+        {
+          "code": "300229.SZ",
+          "name": "拓尔思",
+          "leader": false,
+          "role": "NLP起家，政务/媒体行业模型"
+        },
+        {
+          "code": "601360.SH",
+          "name": "三六零",
+          "leader": false,
+          "role": "360智脑大模型+安全"
+        },
+        {
+          "code": "688327.SH",
+          "name": "云从科技",
+          "leader": false,
+          "role": "人机协同/行业大模型"
+        },
+        {
+          "code": "688088.SH",
+          "name": "虹软科技",
+          "leader": false,
+          "role": "视觉AI算法（手机/车载）"
+        },
+        {
+          "code": "688207.SH",
+          "name": "格灵深瞳",
+          "leader": false,
+          "role": "计算机视觉"
+        },
+        {
+          "code": "002362.SZ",
+          "name": "汉王科技",
+          "leader": false,
+          "role": "OCR/手写识别+NLP"
+        },
+        {
+          "code": "688787.SH",
+          "name": "海天瑞声",
+          "leader": false,
+          "role": "AI训练数据服务"
+        }
+      ]
+    },
+    {
+      "id": "downstream-office",
+      "name": "下游·办公与内容创作",
+      "companies": [
+        {
+          "code": "688111.SH",
+          "name": "金山办公",
+          "leader": true,
+          "role": "办公软件龙头，WPS AI商业化"
+        },
+        {
+          "code": "688095.SH",
+          "name": "福昕软件",
+          "leader": false,
+          "role": "PDF文档软件+AI"
+        },
+        {
+          "code": "300624.SZ",
+          "name": "万兴科技",
+          "leader": false,
+          "role": "创意软件+AIGC"
+        },
+        {
+          "code": "300364.SZ",
+          "name": "中文在线",
+          "leader": false,
+          "role": "数字阅读/IP+AI内容"
+        },
+        {
+          "code": "300058.SZ",
+          "name": "蓝色光标",
+          "leader": false,
+          "role": "营销服务+AIGC应用"
+        },
+        {
+          "code": "300781.SZ",
+          "name": "因赛集团",
+          "leader": false,
+          "role": "营销内容+AI创意"
+        },
+        {
+          "code": "300182.SZ",
+          "name": "捷成股份",
+          "leader": false,
+          "role": "版权运营+音视频AI"
+        }
+      ]
+    },
+    {
+      "id": "downstream-finance",
+      "name": "下游·金融IT",
+      "companies": [
+        {
+          "code": "600570.SH",
+          "name": "恒生电子",
+          "leader": true,
+          "role": "金融IT龙头，LightGPT行业模型"
+        },
+        {
+          "code": "300033.SZ",
+          "name": "同花顺",
+          "leader": false,
+          "role": "C端证券服务+问财大模型"
+        },
+        {
+          "code": "300059.SZ",
+          "name": "东方财富",
+          "leader": false,
+          "role": "互联网券商+AI投顾"
+        }
+      ]
+    },
+    {
+      "id": "downstream-security",
+      "name": "下游·安防与视觉物联",
+      "companies": [
+        {
+          "code": "002415.SZ",
+          "name": "海康威视",
+          "leader": true,
+          "role": "智能物联龙头，观澜大模型"
+        },
+        {
+          "code": "002236.SZ",
+          "name": "大华股份",
+          "leader": false,
+          "role": "智慧物联/机器视觉"
+        },
+        {
+          "code": "002373.SZ",
+          "name": "千方科技",
+          "leader": false,
+          "role": "交通信息化/V2X"
+        }
+      ]
+    },
+    {
+      "id": "downstream-auto",
+      "name": "下游·智能驾驶",
+      "companies": [
+        {
+          "code": "002920.SZ",
+          "name": "德赛西威",
+          "leader": true,
+          "role": "智能座舱/智驾域控龙头"
+        },
+        {
+          "code": "300496.SZ",
+          "name": "中科创达",
+          "leader": false,
+          "role": "智能操作系统，座舱/边缘AI"
+        },
+        {
+          "code": "002405.SZ",
+          "name": "四维图新",
+          "leader": false,
+          "role": "高精地图+智驾芯片（杰发）"
+        },
+        {
+          "code": "002906.SZ",
+          "name": "华阳集团",
+          "leader": false,
+          "role": "智能座舱电子/HUD"
+        }
+      ]
+    },
+    {
+      "id": "downstream-medical",
+      "name": "下游·医疗AI",
+      "companies": [
+        {
+          "code": "688271.SH",
+          "name": "联影医疗",
+          "leader": true,
+          "role": "高端影像设备+AI诊断"
+        },
+        {
+          "code": "300253.SZ",
+          "name": "卫宁健康",
+          "leader": false,
+          "role": "医疗IT+WiNGPT"
+        },
+        {
+          "code": "300451.SZ",
+          "name": "创业慧康",
+          "leader": false,
+          "role": "医疗信息化+AI"
+        }
+      ]
+    },
+    {
+      "id": "downstream-game",
+      "name": "下游·游戏与企业服务",
+      "companies": [
+        {
+          "code": "002555.SZ",
+          "name": "三七互娱",
+          "leader": true,
+          "role": "游戏+AI美术/智能投放"
+        },
+        {
+          "code": "002517.SZ",
+          "name": "恺英网络",
+          "leader": false,
+          "role": "游戏+AI应用"
+        },
+        {
+          "code": "002558.SZ",
+          "name": "巨人网络",
+          "leader": false,
+          "role": "游戏+AI原生玩法"
+        },
+        {
+          "code": "002315.SZ",
+          "name": "焦点科技",
+          "leader": false,
+          "role": "外贸B2B+AI助手"
+        }
+      ]
+    },
+    {
+      "id": "downstream-terminal",
+      "name": "下游·智能终端",
+      "companies": [
+        {
+          "code": "688036.SH",
+          "name": "传音控股",
+          "leader": true,
+          "role": "新兴市场手机龙头+AIoT生态"
+        },
+        {
+          "code": "688475.SH",
+          "name": "萤石网络",
+          "leader": false,
+          "role": "智能家居摄像机+云平台"
+        },
+        {
+          "code": "688169.SH",
+          "name": "石头科技",
+          "leader": false,
+          "role": "扫地机器人+AI导航"
+        }
+      ]
+    }
+  ]
+}

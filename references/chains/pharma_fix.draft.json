@@ -1,0 +1,36 @@
+{
+  "chain": "pharma_fix",
+  "chain_name": "医药链补漏",
+  "drafted": "2026-07-21",
+  "segments": [
+    {
+      "id": "fix-chem",
+      "name": "制药·化学制剂",
+      "companies": [
+        {"code": "002793.SZ", "name": "罗欣药业", "leader": false, "role": "化学制剂(消化/呼吸)+原料药", "concepts": ["流感"]},
+        {"code": "300434.SZ", "name": "金石亚药", "leader": false, "role": "感冒药(快克)+制药机械", "concepts": ["流感"]}
+      ]
+    },
+    {
+      "id": "fix-api",
+      "name": "制药·原料药与中间体",
+      "companies": [
+        {"code": "002166.SZ", "name": "莱茵生物", "leader": false, "role": "植物提取(甜菊糖/罗汉果)+工业大麻", "concepts": ["流感"]}
+      ]
+    },
+    {
+      "id": "fix-dist",
+      "name": "医药商业·医药流通",
+      "companies": [
+        {"code": "600829.SH", "name": "人民同泰", "leader": false, "role": "黑龙江区域医药流通(哈药系)", "concepts": ["流感"]}
+      ]
+    },
+    {
+      "id": "fix-icl",
+      "name": "医疗服务·ICL与诊断服务",
+      "companies": [
+        {"code": "000504.SZ", "name": "南华生物", "leader": false, "role": "干细胞存储与检测+节能环保", "concepts": ["干细胞"]}
+      ]
+    }
+  ]
+}

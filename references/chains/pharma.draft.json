@@ -1,0 +1,248 @@
+{
+  "chain": "pharma",
+  "chain_name": "医药产业链",
+  "drafted": "2026-07-21",
+  "segments": [
+    {
+      "id": "pharma-chem",
+      "name": "制药·化学制剂",
+      "companies": [
+        {"code": "600276.SH", "name": "恒瑞医药", "leader": true, "role": "化学制剂+创新药双龙头，抗肿瘤/麻醉/造影剂"},
+        {"code": "600196.SH", "name": "复星医药", "leader": false, "role": "综合制药集团，仿创结合+器械诊断"},
+        {"code": "000963.SZ", "name": "华东医药", "leader": false, "role": "内分泌/免疫制剂+医美+医药商业"},
+        {"code": "002422.SZ", "name": "科伦药业", "leader": false, "role": "大输液龙头，抗生素中间体+创新药(科伦博泰)"},
+        {"code": "600079.SH", "name": "人福医药", "leader": false, "role": "麻醉镇痛药龙头"},
+        {"code": "000513.SZ", "name": "丽珠集团", "leader": false, "role": "消化道/促性激素制剂+原料药+诊断试剂"},
+        {"code": "600380.SH", "name": "健康元", "leader": false, "role": "呼吸制剂+保健品(太太药业)"},
+        {"code": "600521.SH", "name": "华海药业", "leader": false, "role": "特色原料药+制剂出口(美国ANDA)"},
+        {"code": "002294.SZ", "name": "信立泰", "leader": false, "role": "心血管制剂(氯吡格雷)+创新药"},
+        {"code": "002262.SZ", "name": "恩华药业", "leader": false, "role": "中枢神经(麻醉/精神/神经)制剂"},
+        {"code": "002332.SZ", "name": "仙琚制药", "leader": false, "role": "甾体激素原料药+制剂"},
+        {"code": "002020.SZ", "name": "京新药业", "leader": false, "role": "精神神经/心脑血管制剂"},
+        {"code": "300723.SZ", "name": "一品红", "leader": false, "role": "儿童药+慢病药"},
+        {"code": "002653.SZ", "name": "海思科", "leader": false, "role": "肠外营养+麻醉创新药(环泊酚)"}
+      ]
+    },
+    {
+      "id": "pharma-api",
+      "name": "制药·原料药与中间体",
+      "companies": [
+        {"code": "002001.SZ", "name": "新和成", "leader": true, "role": "维生素/蛋氨酸龙头，营养品+香精香料+新材料"},
+        {"code": "000739.SZ", "name": "普洛药业", "leader": false, "role": "原料药+CDMO+制剂"},
+        {"code": "605507.SH", "name": "国邦医药", "leader": false, "role": "医药/动物保健品原料药"},
+        {"code": "000756.SZ", "name": "新华制药", "leader": false, "role": "解热镇痛类原料药(布洛芬)+制剂"},
+        {"code": "300702.SZ", "name": "天宇股份", "leader": false, "role": "沙坦类原料药及中间体"},
+        {"code": "603520.SH", "name": "司太立", "leader": false, "role": "造影剂原料药"},
+        {"code": "603707.SH", "name": "健友股份", "leader": false, "role": "肝素原料药+制剂出口"},
+        {"code": "002399.SZ", "name": "海普瑞", "leader": false, "role": "肝素钠原料药全球龙头+CDMO"},
+        {"code": "603538.SH", "name": "美诺华", "leader": false, "role": "特色原料药+CDMO"}
+      ]
+    },
+    {
+      "id": "inno-drug",
+      "name": "创新药·创新药(Biotech/License-out)",
+      "companies": [
+        {"code": "688235.SH", "name": "百济神州", "leader": true, "role": "创新药国际化龙头：泽布替尼(BTK)+替雷利珠单抗(PD-1)"},
+        {"code": "688506.SH", "name": "百利天恒", "leader": false, "role": "双抗ADC(BL-B01D1授权BMS)，首付款纪录"},
+        {"code": "688331.SH", "name": "荣昌生物", "leader": false, "role": "泰它西普(自免)+维迪西妥单抗(ADC)"},
+        {"code": "688180.SH", "name": "君实生物", "leader": false, "role": "特瑞普利单抗(首个国产PD-1出海)"},
+        {"code": "688266.SH", "name": "泽璟制药", "leader": false, "role": "多纳非尼+杰克替尼，小分子+重组蛋白"},
+        {"code": "300558.SZ", "name": "贝达药业", "leader": false, "role": "埃克替尼(肺癌靶向)+恩沙替尼"},
+        {"code": "688578.SH", "name": "艾力斯", "leader": false, "role": "伏美替尼(三代EGFR-TKI)"},
+        {"code": "688192.SH", "name": "迪哲医药", "leader": false, "role": "舒沃替尼(EGFR exon20)+戈利昔替尼"},
+        {"code": "688321.SH", "name": "微芯生物", "leader": false, "role": "西达本胺(表观遗传)+西格列他钠"},
+        {"code": "688428.SH", "name": "诺诚健华", "leader": false, "role": "奥布替尼(BTK抑制剂)"},
+        {"code": "688443.SH", "name": "智翔金泰", "leader": false, "role": "IL-17A单抗等自免管线"},
+        {"code": "688062.SH", "name": "迈威生物", "leader": false, "role": "ADC+单抗管线，NECTIN-4 ADC"},
+        {"code": "688382.SH", "name": "益方生物", "leader": false, "role": "KRAS G12C抑制剂等小分子管线"},
+        {"code": "688197.SH", "name": "首药控股", "leader": false, "role": "ALK/RET等二代三代激酶抑制剂"},
+        {"code": "688336.SH", "name": "三生国健", "leader": false, "role": "益赛普(TNF-α)+自免管线"},
+        {"code": "688177.SH", "name": "百奥泰", "leader": false, "role": "生物类似药(阿达木/贝伐)+ADC"},
+        {"code": "688520.SH", "name": "神州细胞", "leader": false, "role": "重组八因子+CD20单抗+疫苗"}
+      ]
+    },
+    {
+      "id": "inno-bio",
+      "name": "创新药·生物制品(疫苗/血制品/生长激素)",
+      "companies": [
+        {"code": "300122.SZ", "name": "智飞生物", "leader": true, "role": "疫苗龙头：代理HPV(默沙东)+自主结核/肺炎管线"},
+        {"code": "600161.SH", "name": "天坛生物", "leader": true, "role": "血制品龙头(国药系)，浆站数量领先"},
+        {"code": "300142.SZ", "name": "沃森生物", "leader": false, "role": "13价肺炎结合疫苗+HPV疫苗+mRNA"},
+        {"code": "300601.SZ", "name": "康泰生物", "leader": false, "role": "乙肝疫苗+13价肺炎+人二倍体狂苗"},
+        {"code": "603392.SH", "name": "万泰生物", "leader": false, "role": "国产HPV疫苗(二价/九价)+IVD"},
+        {"code": "300841.SZ", "name": "康华生物", "leader": false, "role": "人二倍体狂犬疫苗"},
+        {"code": "002007.SZ", "name": "华兰生物", "leader": false, "role": "血制品+流感疫苗"},
+        {"code": "002252.SZ", "name": "上海莱士", "leader": false, "role": "血制品(白蛋白/静丙)"},
+        {"code": "000403.SZ", "name": "派林生物", "leader": false, "role": "血制品"},
+        {"code": "000661.SZ", "name": "长春高新", "leader": false, "role": "生长激素(金赛药业)+疫苗(百克生物)"},
+        {"code": "300009.SZ", "name": "安科生物", "leader": false, "role": "生长激素+干扰素+精准医疗"},
+        {"code": "300357.SZ", "name": "我武生物", "leader": false, "role": "脱敏制剂(粉尘螨滴剂)"},
+        {"code": "688278.SH", "name": "特宝生物", "leader": false, "role": "长效干扰素(派格宾)+长效生长激素"}
+      ]
+    },
+    {
+      "id": "tcm-brand",
+      "name": "中药·品牌中药",
+      "companies": [
+        {"code": "600436.SH", "name": "片仔癀", "leader": true, "role": "国家绝密配方，肝病用药+日化"},
+        {"code": "000538.SZ", "name": "云南白药", "leader": true, "role": "白药系列+健康品(牙膏)+中药资源"},
+        {"code": "600085.SH", "name": "同仁堂", "leader": false, "role": "安宫牛黄丸等经典名方+零售"},
+        {"code": "000423.SZ", "name": "东阿阿胶", "leader": false, "role": "阿胶品类龙头"},
+        {"code": "000999.SZ", "name": "华润三九", "leader": false, "role": "OTC龙头(999感冒灵/胃泰)+昆药整合"},
+        {"code": "600332.SH", "name": "白云山", "leader": false, "role": "中成药(王老吉)+化学药+大健康"},
+        {"code": "002603.SZ", "name": "以岭药业", "leader": false, "role": "连花清瘟+心脑血管(通心络)"},
+        {"code": "600535.SH", "name": "天士力", "leader": false, "role": "复方丹参滴丸，现代中药龙头"},
+        {"code": "600329.SH", "name": "达仁堂", "leader": false, "role": "速效救心丸+清宫寿桃丸"},
+        {"code": "600129.SH", "name": "太极集团", "leader": false, "role": "藿香正气口服液+急支糖浆"},
+        {"code": "600750.SH", "name": "江中药业", "leader": false, "role": "健胃消食片+乳酸菌素片"},
+        {"code": "600285.SH", "name": "羚锐制药", "leader": false, "role": "贴膏剂龙头(通络祛痛膏)"},
+        {"code": "600422.SH", "name": "昆药集团", "leader": false, "role": "三七系列(血塞通)+青蒿素"},
+        {"code": "600993.SH", "name": "马应龙", "leader": false, "role": "痔疮用药+眼科+医疗服务"},
+        {"code": "600771.SH", "name": "广誉远", "leader": false, "role": "龟龄集+定坤丹，精品中药"},
+        {"code": "600976.SH", "name": "健民集团", "leader": false, "role": "龙牡壮骨颗粒+体外培育牛黄"}
+      ]
+    },
+    {
+      "id": "tcm-granule",
+      "name": "中药·中药饮片与配方颗粒",
+      "companies": [
+        {"code": "300026.SZ", "name": "红日药业", "leader": true, "role": "中药配方颗粒(康仁堂)+血必净"},
+        {"code": "600518.SH", "name": "康美药业", "leader": false, "role": "中药饮片+中药材贸易"},
+        {"code": "300181.SZ", "name": "佐力药业", "leader": false, "role": "乌灵胶囊+中药配方颗粒"},
+        {"code": "002873.SZ", "name": "新天药业", "leader": false, "role": "妇科/泌尿系统中成药"},
+        {"code": "002864.SZ", "name": "盘龙药业", "leader": false, "role": "盘龙七片(风湿骨伤)"}
+      ]
+    },
+    {
+      "id": "device-equip",
+      "name": "医疗器械·医疗设备",
+      "companies": [
+        {"code": "300760.SZ", "name": "迈瑞医疗", "leader": true, "role": "监护仪/麻醉机/超声/IVD国产器械龙头"},
+        {"code": "688271.SH", "name": "联影医疗", "leader": true, "role": "CT/MRI/PET-CT高端影像设备"},
+        {"code": "300633.SZ", "name": "开立医疗", "leader": false, "role": "超声+软镜(内镜)"},
+        {"code": "688212.SH", "name": "澳华内镜", "leader": false, "role": "软性内窥镜"},
+        {"code": "600587.SH", "name": "新华医疗", "leader": false, "role": "消毒灭菌设备+放疗设备+制药装备"},
+        {"code": "002223.SZ", "name": "鱼跃医疗", "leader": false, "role": "家用医疗器械：制氧机/血糖/呼吸"},
+        {"code": "300206.SZ", "name": "理邦仪器", "leader": false, "role": "监护/心电/超声/妇幼设备"},
+        {"code": "600055.SH", "name": "万东医疗", "leader": false, "role": "DR/MRI影像设备(美的系)"},
+        {"code": "688301.SH", "name": "奕瑞科技", "leader": false, "role": "X射线探测器核心部件"},
+        {"code": "688358.SH", "name": "祥生医疗", "leader": false, "role": "超声设备"}
+      ]
+    },
+    {
+      "id": "device-consumable",
+      "name": "医疗器械·高值耗材",
+      "companies": [
+        {"code": "300003.SZ", "name": "乐普医疗", "leader": true, "role": "心血管支架/封堵器+药品"},
+        {"code": "688617.SH", "name": "惠泰医疗", "leader": true, "role": "电生理+冠脉通路耗材(迈瑞入主)"},
+        {"code": "688016.SH", "name": "心脉医疗", "leader": false, "role": "主动脉及外周血管介入(微创系)"},
+        {"code": "688029.SH", "name": "南微医学", "leader": false, "role": "内镜诊疗耗材+微波消融"},
+        {"code": "002901.SZ", "name": "大博医疗", "leader": false, "role": "骨科创伤/脊柱耗材"},
+        {"code": "688161.SH", "name": "威高骨科", "leader": false, "role": "骨科耗材(威高系)"},
+        {"code": "688236.SH", "name": "春立医疗", "leader": false, "role": "骨科关节假体"},
+        {"code": "688085.SH", "name": "三友医疗", "leader": false, "role": "脊柱植入物"},
+        {"code": "688050.SH", "name": "爱博医疗", "leader": false, "role": "人工晶状体+OK镜"},
+        {"code": "300595.SZ", "name": "欧普康视", "leader": false, "role": "角膜塑形镜(OK镜)"},
+        {"code": "688366.SH", "name": "昊海生科", "leader": false, "role": "眼科粘弹剂+医美玻尿酸"},
+        {"code": "300529.SZ", "name": "健帆生物", "leader": false, "role": "血液灌流器"},
+        {"code": "688351.SH", "name": "微电生理", "leader": false, "role": "电生理介入(微创系)"},
+        {"code": "688198.SH", "name": "佰仁医疗", "leader": false, "role": "动物源性植介入(心脏瓣膜)"}
+      ]
+    },
+    {
+      "id": "device-ivd",
+      "name": "医疗器械·IVD与低值耗材",
+      "companies": [
+        {"code": "603658.SH", "name": "安图生物", "leader": true, "role": "化学发光+微生物检测+流水线"},
+        {"code": "300832.SZ", "name": "新产业", "leader": true, "role": "化学发光免疫分析"},
+        {"code": "300482.SZ", "name": "万孚生物", "leader": false, "role": "POCT快速检测"},
+        {"code": "300463.SZ", "name": "迈克生物", "leader": false, "role": "IVD试剂+仪器(代理+自产)"},
+        {"code": "688575.SH", "name": "亚辉龙", "leader": false, "role": "化学发光(自免/生殖健康特色)"},
+        {"code": "688289.SH", "name": "圣湘生物", "leader": false, "role": "分子诊断(PCR)"},
+        {"code": "002030.SZ", "name": "达安基因", "leader": false, "role": "分子诊断(中山大学系)"},
+        {"code": "300676.SZ", "name": "华大基因", "leader": false, "role": "基因测序服务+IVD"},
+        {"code": "300677.SZ", "name": "英科医疗", "leader": false, "role": "一次性手套(丁腈/PVC)"},
+        {"code": "002382.SZ", "name": "蓝帆医疗", "leader": false, "role": "手套+心脑血管支架(柏盛国际)"},
+        {"code": "603301.SH", "name": "振德医疗", "leader": false, "role": "医用敷料+手术感控"},
+        {"code": "002950.SZ", "name": "奥美医疗", "leader": false, "role": "医用敷料出口"}
+      ]
+    },
+    {
+      "id": "service-cxo",
+      "name": "医疗服务·CXO(研发/生产外包)",
+      "companies": [
+        {"code": "603259.SH", "name": "药明康德", "leader": true, "role": "一体化CRO+CDMO(CRDMO)全球龙头"},
+        {"code": "300759.SZ", "name": "康龙化成", "leader": true, "role": "实验室化学+CMC+临床CRO一体化"},
+        {"code": "300347.SZ", "name": "泰格医药", "leader": true, "role": "临床CRO龙头"},
+        {"code": "002821.SZ", "name": "凯莱英", "leader": false, "role": "小分子CDMO+多肽/寡核苷酸"},
+        {"code": "300363.SZ", "name": "博腾股份", "leader": false, "role": "小分子CDMO+基因细胞治疗CDMO"},
+        {"code": "603456.SH", "name": "九洲药业", "leader": false, "role": "特色原料药+CDMO(诺华合作)"},
+        {"code": "603127.SH", "name": "昭衍新药", "leader": false, "role": "临床前安全性评价(安评)"},
+        {"code": "300725.SZ", "name": "药石科技", "leader": false, "role": "分子砌块+CDMO"},
+        {"code": "688202.SH", "name": "美迪西", "leader": false, "role": "临床前一体化CRO"},
+        {"code": "688131.SH", "name": "皓元医药", "leader": false, "role": "分子砌块/工具化合物+原料药CDMO"},
+        {"code": "688076.SH", "name": "诺泰生物", "leader": false, "role": "多肽CDMO+多肽原料药(司美格鲁肽)"},
+        {"code": "688117.SH", "name": "圣诺生物", "leader": false, "role": "多肽原料药+CDMO"},
+        {"code": "300149.SZ", "name": "睿智医药", "leader": false, "role": "CRO+生物药CDMO"}
+      ]
+    },
+    {
+      "id": "service-hospital",
+      "name": "医疗服务·专科医疗与医美",
+      "companies": [
+        {"code": "300015.SZ", "name": "爱尔眼科", "leader": true, "role": "眼科连锁医疗全球龙头"},
+        {"code": "600763.SH", "name": "通策医疗", "leader": false, "role": "口腔连锁(杭口)+辅助生殖"},
+        {"code": "301267.SZ", "name": "华厦眼科", "leader": false, "role": "眼科连锁"},
+        {"code": "301239.SZ", "name": "普瑞眼科", "leader": false, "role": "眼科连锁"},
+        {"code": "002044.SZ", "name": "美年健康", "leader": false, "role": "体检连锁龙头"},
+        {"code": "000516.SZ", "name": "国际医学", "leader": false, "role": "综合医院(西安高新/国际医学中心)"},
+        {"code": "300143.SZ", "name": "盈康生命", "leader": false, "role": "肿瘤专科+放疗设备(海尔系)"},
+        {"code": "300896.SZ", "name": "爱美客", "leader": true, "role": "医美注射龙头：嗨体/濡白天使"},
+        {"code": "688363.SH", "name": "华熙生物", "leader": false, "role": "透明质酸原料+医美+功能性护肤"},
+        {"code": "002612.SZ", "name": "朗姿股份", "leader": false, "role": "医美机构连锁(米兰柏羽等)+女装"}
+      ]
+    },
+    {
+      "id": "service-icl",
+      "name": "医疗服务·ICL与诊断服务",
+      "companies": [
+        {"code": "603882.SH", "name": "金域医学", "leader": true, "role": "第三方医学检验(ICL)龙头"},
+        {"code": "300244.SZ", "name": "迪安诊断", "leader": false, "role": "ICL+渠道代理"},
+        {"code": "301060.SZ", "name": "兰卫医学", "leader": false, "role": "ICL+病理诊断"},
+        {"code": "000710.SZ", "name": "贝瑞基因", "leader": false, "role": "NIPT无创产前基因检测"},
+        {"code": "688315.SH", "name": "诺禾致源", "leader": false, "role": "科研基因测序服务"}
+      ]
+    },
+    {
+      "id": "commerce-dist",
+      "name": "医药商业·医药流通",
+      "companies": [
+        {"code": "601607.SH", "name": "上海医药", "leader": true, "role": "工商业一体：分销全国第二+工业制剂"},
+        {"code": "600998.SH", "name": "九州通", "leader": true, "role": "民营医药流通龙头+新零售/总代"},
+        {"code": "600511.SH", "name": "国药股份", "leader": false, "role": "北京地区医药分销+麻精特药"},
+        {"code": "000028.SZ", "name": "国药一致", "leader": false, "role": "两广分销+国大药房零售"},
+        {"code": "603368.SH", "name": "柳药集团", "leader": false, "role": "广西区域流通+工业(中药配方颗粒)"},
+        {"code": "000950.SZ", "name": "重药控股", "leader": false, "role": "西南区域流通龙头"},
+        {"code": "600713.SH", "name": "南京医药", "leader": false, "role": "苏皖闽区域流通"},
+        {"code": "000411.SZ", "name": "英特集团", "leader": false, "role": "浙江区域流通"},
+        {"code": "002462.SZ", "name": "嘉事堂", "leader": false, "role": "北京医药分销+高值耗材配送"},
+        {"code": "000078.SZ", "name": "海王生物", "leader": false, "role": "医药流通(广东/河南)"},
+        {"code": "002788.SZ", "name": "鹭燕医药", "leader": false, "role": "福建区域流通"}
+      ]
+    },
+    {
+      "id": "commerce-retail",
+      "name": "医药商业·零售药店",
+      "companies": [
+        {"code": "603939.SH", "name": "益丰药房", "leader": true, "role": "连锁药店龙头(华中/华东)"},
+        {"code": "603233.SH", "name": "大参林", "leader": false, "role": "连锁药店(华南)"},
+        {"code": "603883.SH", "name": "老百姓", "leader": false, "role": "连锁药店(全国布局+加盟)"},
+        {"code": "002727.SZ", "name": "一心堂", "leader": false, "role": "连锁药店(云南/西南)"},
+        {"code": "605266.SH", "name": "健之佳", "leader": false, "role": "连锁药店(云南+便利店)"},
+        {"code": "301017.SZ", "name": "漱玉平民", "leader": false, "role": "连锁药店(山东)"},
+        {"code": "301408.SZ", "name": "华人健康", "leader": false, "role": "连锁药店(安徽)+代理"},
+        {"code": "300937.SZ", "name": "药易购", "leader": false, "role": "院外医药电商(B2B)+零售"}
+      ]
+    }
+  ]
+}
